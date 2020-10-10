@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "generates content for README file",
+  "main": "readme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DS1826/readme-generator.git"
+  },
+  "author": "Dina Saunders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DS1826/readme-generator/issues"
+  },
+  "homepage": "https://github.com/DS1826/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
