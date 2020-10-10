@@ -1,4 +1,5 @@
-var inquirer = require('inquirer');
+const inquirer = require('inquirer');
+const fs = require('fs');
 
 inquirer
   .prompt([
@@ -70,3 +71,41 @@ inquirer
       // Something else when wrong
     }
   });
+
+  function generateReadMe(answers) {
+      return `
+      # ${answers.Title}
+
+      ## Description
+      ${answers.Description}
+      
+      ## Table of Contents
+      1.[Title](# Title)
+      2.[Description](## Description)
+      3.[Installation](## Description)
+      4.[Usage](## Usage)
+      5.[License](## License)
+      6.[Contributing](## Contributing)
+      7.[Test](## Test)
+      8.[Questions?](## Questions?)
+      
+      ## Installation
+      ${answers.Installation}
+      
+      ## Usage
+      ${answers.Usage}
+      
+      ## License
+      This application is covered under the ${answers.License} License
+      
+      ## Contributing
+      ${answers.Contributing}
+
+      ## Tests
+      ${answers.Tests}
+      
+      ## Questions?
+      Email me at ${answers.Email}
+      Check out my [GiHub Profile](https://github.com/${answers.GitHub}) 
+    `;
+  }
