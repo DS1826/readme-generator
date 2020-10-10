@@ -80,14 +80,14 @@ inquirer
       ${answers.Description}
       
       ## Table of Contents
-      1.[Title](# Title)
-      2.[Description](## Description)
-      3.[Installation](## Description)
-      4.[Usage](## Usage)
-      5.[License](## License)
-      6.[Contributing](## Contributing)
-      7.[Test](## Test)
-      8.[Questions?](## Questions?)
+      1.[Title](#Title)
+      2.[Description](#Description)
+      3.[Installation](#Installation)
+      4.[Usage](#Usage)
+      5.[License](#License)
+      6.[Contributing](#Contributing)
+      7.[Test](#Test)
+      8.[Questions?](#Questions?)
       
       ## Installation
       ${answers.Installation}
