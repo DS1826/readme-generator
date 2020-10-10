@@ -1,79 +1,73 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const util = require('util');
 
-inquirer
-  .prompt([
-    {
-        type: "input",
-        message: "Enter your project title:",
-        name: "Title"
-    },
-    {
-        type: "input",
-        message: "Enter your project description:",
-        name: "Description"
-    },
-    {
-        type: "input",
-        message: "Enter your installation instructions:",
-        name: "Installation"
+const writeFileAsync = util.promisify(fs.writeFile);
 
-    },
-    {
-        type: "input",
-        message: "Enter your usage information:",
-        name: "Usage"
+function promptUser() {
+    return inquirer.prompt([
+        {
+            type: "input",
+            message: "Enter your project title:",
+            name: "Title"
+        },
+        {
+            type: "input",
+            message: "Enter your project description:",
+            name: "Description"
+        },
+        {
+            type: "input",
+            message: "Enter your installation instructions:",
+            name: "Installation"
 
-    },
-    {
-        type: "input",
-        message: "Enter your contribution guidelines:",
-        name: "Contributing"
+        },
+        {
+            type: "input",
+            message: "Enter your usage information:",
+            name: "Usage"
 
-    },
-    {
-        type: "input",
-        message: "Enter your test instructions:",
-        name: "Tests"
+        },
+        {
+            type: "input",
+            message: "Enter your contribution guidelines:",
+            name: "Contributing"
 
-    },
-    {
-        type: "list",
-        message: "Choose a license for your applicaiton:",
-        name: "License",
-        choices: [
-          "ISC",
-          "MIT",
-          "Apache"
-        ]
-      },
-      {
-          type: "input",
-          message: "What is your GitHub username?",
-          name: "GitHub"
-  
-      },
-      {
-          type: "input",
-          message: "What is your email address?",
-          name: "Email"
-  
-      }
+        },
+        {
+            type: "input",
+            message: "Enter your test instructions:",
+            name: "Tests"
 
-  ])
-  .then(answers => {
-    // Use user feedback for... whatever!!
-  })
-  .catch(error => {
-    if(error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else when wrong
-    }
-  });
+        },
+        {
+            type: "list",
+            message: "Choose a license for your applicaiton:",
+            name: "License",
+            choices: [
+                "ISC",
+                "MIT",
+                "Apache"
+            ]
+        },
+        {
+            type: "input",
+            message: "What is your GitHub username?",
+            name: "GitHub"
 
-  function generateReadMe(answers) {
-      return `
+        },
+        {
+            type: "input",
+            message: "What is your email address?",
+            name: "Email"
+
+        }
+
+    ]);
+}
+
+function generateReadMe(answers) {
+    return `
       # ${answers.Title}
 
       ## Description
@@ -108,4 +102,17 @@ inquirer
       Email me at ${answers.Email}
       Check out my [GiHub Profile](https://github.com/${answers.GitHub}) 
     `;
-  }
+}
+
+promptUser()
+    .then(function (answers) {
+        const readMe = generateReadMe(answers);
+
+        return writeFileAsync("README.md", readMe);
+    })
+    .then(function () {
+        console.log("Successfully wrote to README.md");
+    })
+    .catch(function (err) {
+        console.log(err)
+    });
