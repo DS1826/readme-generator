@@ -1,0 +1,5 @@
+# Dependency directories
+node_modules/
+
+# OS Generated Files
+**/.DS_Store
