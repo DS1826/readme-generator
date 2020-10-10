@@ -47,7 +47,7 @@ function promptUser() {
             choices: [
                 "ISC",
                 "MIT",
-                "Apache"
+                "Apache-2.0"
             ]
         },
         {
@@ -90,7 +90,7 @@ function generateReadMe(answers) {
       ${answers.Usage}
       
       ## License
-      This application is covered under the ${answers.License} License
+      This application is covered under the [${answers.License} License](https://opensource.org/licenses/${answers.License})
       
       ## Contributing
       ${answers.Contributing}
