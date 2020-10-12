@@ -24,7 +24,7 @@ npm i
 Follow prompts to customize and generate a README markdown file.
       
 ## License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-This application is covered under the [MIT License](https://opensource.org/licenses/MIT).
+[MIT](https://opensource.org/licenses/MIT)
       
 ## Contributing
 Pull requests are welcome. For major changes, or to report any problems, please open an issue first.
@@ -33,6 +33,6 @@ Pull requests are welcome. For major changes, or to report any problems, please 
 Please make sure to update tests as appropriate.
       
 ## Questions
-Email me at dina.m.1826@gmail.com
- Check out my [GiHub Profile](https://github.com/DS1826) 
+* Email me at dina.m.1826@gmail.com
+* Check out my [GitHub Profile](https://github.com/DS1826) 
     
