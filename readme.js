@@ -110,7 +110,7 @@ function generateReadMe(answers) {
       
       ## Questions?
       Email me at ${answers.Email}
-      Check out my [GiHub Profile](https://github.com/${answers.GitHub}) 
+      Check out my [GitHub Profile](https://github.com/${answers.GitHub}) 
     `;
 }
 
