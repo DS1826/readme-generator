@@ -67,6 +67,16 @@ function promptUser() {
 }
 
 function generateReadMe(answers) {
+    // let badge = "";
+
+    // if (answers.License === "ISC") {
+    //    let badge = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
+    // } else if (answers.License === "MIT") {
+    //     let badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+    // } else {
+    //     let badge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+    // }
+
     return `
       # ${answers.Title}
 
@@ -89,7 +99,7 @@ function generateReadMe(answers) {
       ## Usage
       ${answers.Usage}
       
-      ## License
+      ## License "[![License: ${answers.License}](https://img.shields.io/badge/License-${answers.License}-yellow.svg)](https://opensource.org/licenses/${answers.License})";
       This application is covered under the [${answers.License} License](https://opensource.org/licenses/${answers.License})
       
       ## Contributing
@@ -116,3 +126,4 @@ promptUser()
     .catch(function (err) {
         console.log(err)
     });
+
