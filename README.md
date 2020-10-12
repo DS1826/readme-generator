@@ -4,7 +4,6 @@
 ## Description
 This command-line application enables the quick and easy generation of a README markdown file for your project. 
 
-      
  ## Table of Contents
 1. [Title](#Title)
 2. [Description](#Description)
@@ -24,7 +23,7 @@ npm i
 ## Usage
 Follow prompts to customize and generate a README markdown file.
       
-## License "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+## License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 This application is covered under the [MIT License](https://opensource.org/licenses/MIT)
       
 ## Contributing
