@@ -118,10 +118,10 @@ promptUser()
     .then(function (answers) {
         const readMe = generateReadMe(answers);
 
-        return writeFileAsync("README.md", readMe);
+        return writeFileAsync("generated-README.md", readMe);
     })
     .then(function () {
-        console.log("Successfully wrote to README.md");
+        console.log("Successfully wrote to generated-README.md");
     })
     .catch(function (err) {
         console.log(err)
