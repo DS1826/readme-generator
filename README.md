@@ -5,7 +5,7 @@
 This command-line application enables the quick and easy generation of a README markdown file for your project. 
 
 ## Screenshots
-![readme-demo-video](https://user-images.githubusercontent.com/67653440/95783064-0e0d0600-0c9f-11eb-909a-0464a2ce7f91.gif)
+![readme-demo](https://user-images.githubusercontent.com/67653440/95888571-410ed280-0d4f-11eb-9c78-e12d46b5e56c.gif)
 
 <img width="1190" alt="Screen Shot 2020-10-12 at 2 53 51 PM" src="https://user-images.githubusercontent.com/67653440/95781674-55de5e00-0c9c-11eb-8e65-7fa614ca132a.png">
 
