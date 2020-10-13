@@ -1,7 +1,7 @@
 
-# My Project
+# This is my project title
 ## Description
-Desc
+This is my project description.
   
 ## Table of Contents
 1. [Title](#Title)
@@ -14,20 +14,20 @@ Desc
 8. [Questions?](#Questions?)
   
 ## Installation
-installation
+These are my installation instructions.
   
 ## Usage
-usage
+Here is the usage information.
   
-## License [![License: Apache2.0](https://img.shields.io/badge/License-Apache2.0-yellow.svg)](https://opensource.org/licenses/Apache2.0)
-This application is covered under the [Apache2.0 License](https://opensource.org/licenses/Apache2.0)
+## License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This application is covered under the [MIT License](https://opensource.org/licenses/MIT)
   
 ## Contributing
-contributions
+These are the contribution guidelines.
 ## Tests
-tests
+Here are the test instructions.
   
 ## Questions?
 Email me at me@me.com
-Check out my [GitHub Profile](https://github.com/me) 
+Check out my [GitHub Profile](https://github.com/Username) 
     
