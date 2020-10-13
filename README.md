@@ -9,6 +9,8 @@ This command-line application enables the quick and easy generation of a README 
 
 <img width="1190" alt="Screen Shot 2020-10-12 at 2 53 51 PM" src="https://user-images.githubusercontent.com/67653440/95781674-55de5e00-0c9c-11eb-8e65-7fa614ca132a.png">
 
+<img width="801" alt="Screen Shot 2020-10-13 at 12 27 40 PM" src="https://user-images.githubusercontent.com/67653440/95888831-9b0f9800-0d4f-11eb-9e8d-ce0bdbada288.png">
+
 
  ## Table of Contents
 1. [Title](https://github.com/DS1826/readme-generator/blob/main/README.md#readme-generator)
