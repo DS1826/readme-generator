@@ -69,7 +69,8 @@ function promptUser() {
 function generateReadMe(answers) {
 
     return `
-# ${answers.Title}
+# ${answers.Title} [![License: ${answers.License}](https://img.shields.io/badge/License-${answers.License}-yellow.svg)](https://opensource.org/licenses/${answers.License})
+
 ## Description
 ${answers.Description}
   
@@ -89,7 +90,7 @@ ${answers.Installation}
 ## Usage
 ${answers.Usage}
   
-## License [![License: ${answers.License}](https://img.shields.io/badge/License-${answers.License}-yellow.svg)](https://opensource.org/licenses/${answers.License})
+## License 
 This application is covered under the [${answers.License} License](https://opensource.org/licenses/${answers.License})
   
 ## Contributing

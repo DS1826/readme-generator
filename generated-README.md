@@ -1,5 +1,6 @@
 
-# This is my project title
+# This is my project title [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 This is my project description.
   
@@ -19,7 +20,7 @@ These are my installation instructions.
 ## Usage
 Here is the usage information.
   
-## License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## License 
 This application is covered under the [MIT License](https://opensource.org/licenses/MIT)
   
 ## Contributing
