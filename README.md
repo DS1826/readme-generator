@@ -24,7 +24,7 @@ npm i
 ## Usage
 Follow prompts to customize and generate a README markdown file.
       
-## License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## License 
 [MIT](https://opensource.org/licenses/MIT)
       
 ## Contributing
