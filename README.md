@@ -11,7 +11,8 @@ The following screenshots include a command line video demo, a sample generated 
 
 <img width="1190" alt="Screen Shot 2020-10-12 at 2 53 51 PM" src="https://user-images.githubusercontent.com/67653440/95781674-55de5e00-0c9c-11eb-8e65-7fa614ca132a.png">
 
-<img width="801" alt="Screen Shot 2020-10-13 at 12 27 40 PM" src="https://user-images.githubusercontent.com/67653440/95888831-9b0f9800-0d4f-11eb-9e8d-ce0bdbada288.png">
+<img width="795" alt="Screen Shot 2020-10-13 at 12 43 45 PM" src="https://user-images.githubusercontent.com/67653440/95890489-dd39d900-0d51-11eb-8e09-d9c6be744eba.png">
+
 
       
 ## Installation
